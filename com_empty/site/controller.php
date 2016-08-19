@@ -40,7 +40,6 @@ class EmptyController extends JControllerLegacy
 		}
 		catch (Exception $e)
 		{
-			// JERROR_LAYOUT_REQUESTED_RESOURCE_WAS_NOT_FOUND
 			$trace = $e->getTrace();
 
 			$thrower = $trace[0];
